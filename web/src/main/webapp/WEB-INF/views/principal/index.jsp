@@ -5,15 +5,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-
 	<div class="container">
-
 		<form class="form-signin">
-			<h2 class="form-signin-heading">Principal</h2>
+			<h2 class="form-signin-heading">Saludos Banda !!!</h2>
 		</form>
-
 	</div>
-	<!-- /container -->
-
 </body>
 </html>
