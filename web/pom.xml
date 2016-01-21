@@ -68,7 +68,6 @@
 							<maxIdleTime>60000</maxIdleTime>
 						</connector>
 					</connectors>
-					<jettyEnvXml>src/test/resources/jetty.xml</jettyEnvXml>
 					<contextPath>/ProjectSpring</contextPath>
 				</configuration>
 			</plugin>
