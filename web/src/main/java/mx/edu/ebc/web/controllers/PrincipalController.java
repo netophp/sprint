@@ -7,7 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/principal")
+@RequestMapping("/")
 public class PrincipalController {
 	
 	@RequestMapping("/")
