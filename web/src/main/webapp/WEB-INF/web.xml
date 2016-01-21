@@ -27,19 +27,6 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
-			<!-- CAS CONTEXT-->
-			classpath:/casCtx.xml,
-			classpath:/casServiceAppCtx.xml,
-			classpath:/springSecurityCtx.xml,
-
-			<!-- UTILERIA_EBC:SERVICIOS -->
-			classpath:/DataSourceAppCtxUtil.xml,
-			classpath:/JdbcAppCtxUtil.xml,
-			classpath:/AopDaoAppCtxUtilTest.xml,
-			classpath:/ServiceJdbcAppCtxUtil.xml,
-			classpath:/MailAppCtxUtil.xml,
-
-			classpath:/propertiesAppCtx.xml
 	  	</param-value>
 	</context-param>
 	
@@ -53,16 +40,5 @@
     		<servlet-name>templatesApp</servlet-name>
     		<url-pattern>/</url-pattern>
   	</servlet-mapping>
-
-	<!-- CONFIGURACION DE SPRING SECURITY -->
-	<filter>
-		<filter-name>springSecurityFilterChain</filter-name>
-		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
-	</filter>
-	<filter-mapping>
-		<filter-name>springSecurityFilterChain</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
-
 
 </web-app>
