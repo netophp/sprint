@@ -3,7 +3,7 @@ package netophp.mx.dao.impl;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import spring.test.mx.dao.AbstractGenericDao;
+import netophp.mx.dao.AbstractGenericDao;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
