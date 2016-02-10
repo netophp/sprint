@@ -17,7 +17,7 @@ public class PrincipalController {
 
 	@RequestMapping("/")
 	public String principal(Model modelo, HttpSession sesion) {
-		helloWorldzService.getHelloWorldz();
+		modelo.addAttribute("mensaje", helloWorldzService.getHelloWorldz());
 		return "principal/index";
 	}
 }
