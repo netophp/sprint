@@ -15,7 +15,7 @@
 		<property name="dataSource" ref="dataSource" />
 		<property name="mappingResources">
 			<util:list>
-				<value></value>
+				<value>netophp/mx/mapeo/Persona.hbm.xml</value>
 			</util:list>
 		</property>
 		<property name="hibernateProperties">
