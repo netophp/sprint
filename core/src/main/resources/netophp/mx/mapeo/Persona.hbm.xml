@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="netophp.mx.domain">
+    <class name="Persona" table="persona">
+        <id name="id">
+            <generator class="sequence">
+                <param name="sequence">sq_id_persona</param>
+            </generator>
+        </id>
+        <property name="nombre" column="nombre"/>
+        <property name="apellido" column="apellido"/>
+        <property name="email" column="email"/>
+        <property name="edad" column="edad"/>
+    </class>
+</hibernate-mapping>
