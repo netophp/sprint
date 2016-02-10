@@ -1,4 +1,4 @@
-package mx.edu.ebc.web.controllers;
+package netophp.mx.web.controllers;
 
 import javax.servlet.http.HttpSession;
 

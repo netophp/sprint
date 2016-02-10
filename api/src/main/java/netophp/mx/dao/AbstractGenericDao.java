@@ -1,4 +1,4 @@
-package spring.test.mx.dao;
+package netophp.mx.dao;
 
 import java.io.Serializable;
 import java.util.List;
