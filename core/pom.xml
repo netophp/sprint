@@ -13,7 +13,7 @@
 	<name>core</name>
 	<dependencies>
 		<dependency>
-			<groupId>spring.test.mx</groupId>
+			<groupId>netophp.mx</groupId>
 			<artifactId>api</artifactId>
 			<version>0.1</version>
 			<type>jar</type>
