@@ -6,3 +6,8 @@
 *.txt*
 *.classpath
 *target/
+.idea/
+ProjectSpring.iml
+api/api.iml
+core/core.iml
+web/web.iml
