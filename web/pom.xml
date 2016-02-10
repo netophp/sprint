@@ -13,7 +13,7 @@
 	<name>web</name>
 	<dependencies>
 		<dependency>
-			<groupId>spring.test.mx</groupId>
+			<groupId>netophp.mx</groupId>
 			<artifactId>core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
