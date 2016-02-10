@@ -27,6 +27,7 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
+			classpath:/ServiceAppCtx.xml
 	  	</param-value>
 	</context-param>
 	
