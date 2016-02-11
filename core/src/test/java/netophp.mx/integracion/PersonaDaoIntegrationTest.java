@@ -29,7 +29,7 @@ public class PersonaDaoIntegrationTest {
     @Autowired
     PersonaDao personaDao;
 
-    Persona persona = new Persona();
+    static Persona persona = new Persona();
 
     static Long personaId = 0L;
 
@@ -52,6 +52,7 @@ public class PersonaDaoIntegrationTest {
     }
 
     @Test
+    @Rollback(false)
     public void test003updatePersona() {
         Persona updatePersona = personaDao.read(personaId);
         updatePersona.setNombre("Netillo");
@@ -62,7 +63,7 @@ public class PersonaDaoIntegrationTest {
 
     @Test
     @Rollback(false)
-    public void test004updatePersona() {
+    public void test004deletePersona() {
         personaDao.delete(persona);
     }
 
