@@ -5,3 +5,6 @@ CREATE TABLE DIVER.PERSONA (
          email      VARCHAR2(100),
          edad       NUMBER);
 COMMIT;
+
+CREATE SEQUENCE sq_id_persona INCREMENT BY 1 START WITH 1;
+COMMIT;
