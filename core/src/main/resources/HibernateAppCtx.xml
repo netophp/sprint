@@ -18,8 +18,8 @@
         </property>
         <property name="hibernateProperties">
             <props>
-                <prop key="hibernate.dialect">#{propiedades['database.dialect']}</prop>
-                <prop key="hibernate.show_sql">#{propiedades['database.showsql']}</prop>
+                <prop key="hibernate.dialect">#{properties['database.dialect']}</prop>
+                <prop key="hibernate.show_sql">#{properties['database.showsql']}</prop>
             </props>
         </property>
     </bean>
