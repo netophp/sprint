@@ -28,7 +28,7 @@
 
     <aop:config>
         <aop:pointcut id="serviceOperation"
-                      expression="execution(* netophp.mx.service.impl.*.*(..))"/>
+                      expression="execution(* netophp.mx.dao.impl.*.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceOperation"/>
     </aop:config>
 
